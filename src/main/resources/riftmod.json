@@ -1,10 +1,10 @@
 {
-,    "id": "tokimunes",
-    "name": "tokimunes",
-    "authors": [
-        ""
-    ],
-    "listeners": [
-        "tokimunes.Tmain"
-    ]
+	"id": "x13",
+	"name": "x13",
+	"authors": [
+		"ATE47"
+	],
+	"listeners": [
+		"fr.atesab.x13.RiftXray"
+	]
 }

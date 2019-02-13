@@ -3,31 +3,37 @@ buildscript {
 		mavenCentral()
 		maven { url 'https://www.jitpack.io' }
 		maven { url 'https://files.minecraftforge.net/maven' }
+        maven { url 'http://repo.spongepowered.org/maven' }
+        maven { url = "https://www.dimdev.org/maven/" }
 	}
 	dependencies {
-		//Change jitpack to moderniser when Forge uploads 1.13.2 MCPConfig
-		classpath 'com.github.Chocohead:ForgeGradle:jitpack-SNAPSHOT'
+		classpath 'com.github.Chocohead:ForgeGradle:moderniser-SNAPSHOT'
+        classpath 'org.spongepowered:mixingradle:0.6-SNAPSHOT'
 	}
 }
-
 apply plugin: 'net.minecraftforge.gradle.tweaker-client'
+apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'java'
 
-group 'tokimunes'
-version '1.0'
-archivesBaseName = 'MacroTest'
+group 'fr.atesab.x13'
+version '1.0.3'
+archivesBaseName = 'X13'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
-	mavenCentral()
-	maven { url 'https://www.dimdev.org/maven/' }
-	maven { url 'https://www.jitpack.io' }
+    mavenCentral()
+    maven { url 'https://repo.spongepowered.org/maven/' }
+    maven { url 'https://www.jitpack.io' }
+    maven { url 'https://files.minecraftforge.net/maven' }
+    maven { url 'https://www.dimdev.org/maven/' }
+    maven { url "http://repo.strezz.org/artifactory/list/Strezz-Central" }
 }
 
 dependencies {
 	implementation 'com.github.Chocohead:Rift:jitpack-SNAPSHOT:dev'
+    compile files('libs/FakeOptifine.jar')
 }
 
 minecraft {
@@ -35,4 +41,9 @@ minecraft {
 	mappings = 'snapshot_20181130'
 	runDir = 'run'
 	tweakClass = 'org.dimdev.riftloader.launch.RiftLoaderClientTweaker'
+}
+
+mixin {
+    defaultObfuscationEnv notch
+    add sourceSets.main, 'mixins.x13.refmap.json'
 }
