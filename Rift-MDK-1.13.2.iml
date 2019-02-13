@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output/>
+    <content url="file://$MODULE_DIR$/">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource"/>
+      <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+      <excludeFolder url="file://$MODULE_DIR$/build"/>
+    </content>
+    <orderEntry type="inheritedJdk"/>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.github.Chocohead/Rift/jitpack-SNAPSHOT/7390f8741ec41138514251d937733ce336a209ca/Rift-jitpack-SNAPSHOT-dev.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.github.Chocohead/Rift/jitpack-SNAPSHOT/3ad5d25f0d1dffb82f608038d289dae69eee1871/Rift-jitpack-SNAPSHOT-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.dimdev/mixin/0.7.11-SNAPSHOT/81814a44fbd03bff4dd3efd08b2791a47ba7191b/mixin-0.7.11-SNAPSHOT.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.dimdev/mixin/0.7.11-SNAPSHOT/3cdef66c6fa0a50a9da24924a1b8662b075ee05/mixin-0.7.11-SNAPSHOT-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.dimdev/mixin/0.7.11-SNAPSHOT/baafb30c7c7f06faaa691bd6751fdbb53404e5ac/mixin-0.7.11-SNAPSHOT-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/fd80cad9a1b967ce2ff20529dc54e520d5338d7/launchwrapper-1.12-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/6.2/f0df1c69e34a0463679d7c8db36ddb4312836e76/asm-commons-6.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/6.2/93cb1d46b183441f2edf62c317086ca3b43e8d6e/asm-commons-6.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/6.2/34e0c61d4d7e9921681e8053a23f4e28fbb998f1/asm-commons-6.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/6.2/c7d9a90d221cbb977848d2c777eb3aa7637e89df/asm-analysis-6.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/6.2/5dc0e66899fe8f16891a0faf7018de836c1bb837/asm-analysis-6.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/6.2/a14aec1bf493541fc9cb94b97eb7f8cf9f161b10/asm-analysis-6.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/6.2/61570e046111559f38d4e0e580c005f75988c0a6/asm-tree-6.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/6.2/a922bb5c6ac7a15b919d7b0c34094efd890beda9/asm-tree-6.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/6.2/e9bf68e648c798bc1564e9dcb6f3611a50cd0af8/asm-tree-6.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2/1b6c4ff09ce03f3052429139c2a68e295cae6604/asm-6.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2/9fb2d0c4335dd016bdc77caf7db82e187d5d29ad/asm-6.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.2/a33643c3e25428a77c737a4f5bf8b4afc28b9767/asm-6.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/1.0.19/c0f74b1916bc141b40f7cb491b63e1898f2c99bb/datafixerupper-1.0.19.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/1.0.19/20505ddae1dd29b7d8f7485c507e2a25c19ac948/datafixerupper-1.0.19-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.25/9834cdf236c22e84b946bba989e2f94ef5897c3c/authlib-1.5.25.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.25/18840707f662a3236542716fff61c659584f3e6c/authlib-1.5.25-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/3d7ec36bbfbf5d7259356a6b8fec0ce4f96e3f47/jsr305-3.0.1-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/a2926c057ca3b662b9db194c869bdbe7d3bb8aef/jsr305-3.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.mojang/patchy/1.1/aef610b34a1be37fa851825f12372b78424d8903/patchy-1.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.mojang/patchy/1.1/5e398295fbcb8fb590e3e3bddace13f659792e50/patchy-1.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/1ec1ab1e6ac5a1572edfd0dd9ac95e83684b8a65/oshi-core-1.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.10.3/48fd510879dff266c3815947de66e3d4809f8668/text2speech-1.10.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.10.3/404339fe43d1011ee046a249b0ec7ae9ce04a834/text2speech-1.10.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/6ef160c3133a78de015830860197602ca1c855d3/java-objc-bridge-1.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/fb0092f22cb4fe8e631452f577b7a238778abf2a/java-objc-bridge-1.0.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/865837a198189aee737019561ece842827f24278/java-objc-bridge-1.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.4.0/cb208278274bf12ebdb56c61bd7407e6f774d65a/jna-4.4.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.4.0/dbaa5b1f9a44db1a2ba9070f4b6469ee0f62c3c3/jna-4.4.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.4.0/9d45d3dc35711eef7267d8b4fc2c0dc482ef9fd2/jna-4.4.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/805360594738e77e7da892f7f6ea563ab246c586/platform-3.4.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/2f42653596d0044f0ab456620cba54c9cf53c5ca/platform-3.4.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/814397ccbafff1132758e551c37396c528d7f2d7/icu4j-core-mojang-51.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.3/cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a/jopt-simple-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.3/e1daf4f0bf1b85eb69b0b9d82d05f5842c77559f/jopt-simple-5.0.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.3/36d4348605fd4605d36c8641495f3e78756e454b/jopt-simple-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.25.Final/d0626cd3108294d1d58c05859add27b4ef21f83b/netty-all-4.1.25.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.25.Final/b976aad4dce0a5951d58ad4f5f3f2c9ffd59a8ae/netty-all-4.1.25.Final-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.25.Final/b3cbede36c053a83ccad38ac821814036242f12/netty-all-4.1.25.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.mojang/brigadier/1.0.14/a18df0522b577ca364b87019c1efa0b8faa12fe5/brigadier-1.0.14.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.mojang/brigadier/1.0.14/fd120b33a9d6395d74652b6ad51b4719da3d78ce/brigadier-1.0.14-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/3a3d111be1be1b745edfa7d91678a12d7ed38709/guava-21.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/7d48c9b5304b8bab31d1ed7c9ef9670b646866c0/guava-21.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/b9ed26b8c23fe7cd3e6b463b34e54e5c6d9536d5/guava-21.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/6c6c702c89bfff3cd9e80b04d668c5e190d588c6/commons-lang3-3.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/337310e98410d577aca675930bb46405a0a8fb0c/commons-lang3-3.5-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/f7d878153e86a1cdddf6b37850e00a9f8bff726f/commons-lang3-3.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f/commons-io-2.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/b219c20b7b44a4da22cb1898bfc6bfbb100f33c7/commons-io-2.5-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/caf033a4a7c37b4a8ff3ea084cba591539b0b69/commons-io-2.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.13.9/88d2ecc34dba880fb4f10c7318b313e067e8b6ae/realms-1.13.9.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/81ad2c81206a9aaba4c3337902fc60e1d80b686d/httpclient-4.3.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/65cba03c4f6207f2885f88206fcf52c53f8d111b/httpclient-4.3.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/8176f1eb181cde7c9e4b5290f0365652777b3b87/commons-codec-1.10-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/11fb3d88ae7e3b757d70237064210ceb954a5a04/commons-codec-1.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/695a26a9a58e8495c1e3ce7b7f3bec23ecf2ef16/jinput-2.0.5-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/82604cfeb87b9ab70ed70aa19a137de8ceb21504/jinput-2.0.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/1ad2673c8dded38030ed77ba393b0253051bb768/jutils-1.0.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/d18678a00b216863206a1bb6190507e02a32971b/jutils-1.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/4791230388bf03457c7e235b69479b46a5931861/gson-2.8.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/baf95d8519fc1a11d388f8543cb40cd2bb9d66dc/gson-2.8.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/8e9724537be2a09287d7483c6b4a0c9a0bddf944/commons-compress-1.8.1-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/3caea4421428752206c7a94c3e3097f0c47f1bb8/commons-compress-1.8.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/8a9805acc4e492afb6a400b6e32cfd98ed263caa/commons-logging-1.1.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/37b4a5362830a9b29e68f1a1d179f3aa544fb623/httpcore-4.3.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/4809f38359edeea9487f747e09aa58ec8d3a54c5/httpcore-4.3.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/8.2.1/5ad88f325e424f8dbc2be5459e21ea5cab3864e9/fastutil-8.2.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/8.2.1/639fdc3c0d804cb938a5fec70b3ada11b142cfc3/fastutil-8.2.1-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/8.2.1/47e3859e2123a05a82e75b34af52719f2c18860c/fastutil-8.2.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.8.1/4ac28ff2f1ddf05dae3043a190451e8c46b73c31/log4j-core-2.8.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.8.1/1147684e2e3c2f959fc9b69af236d89e1869b59c/log4j-core-2.8.1-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.8.1/a0a7f683da620c345b502fff04d1e46cde2e8d9/log4j-core-2.8.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.8.1/e801d13612e22cad62a3f4f3fe7fdbe6334a8e72/log4j-api-2.8.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.8.1/beb0e5374901d855d4396ac859ebd67c70e09ea8/log4j-api-2.8.1-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.8.1/a5edb6b8c77843c8be98e0cb1f875699e76ee122/log4j-api-2.8.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.1.6/807ee19f8ce08f7a55ed4939b2f34d1ded6b39c9/lwjgl-jemalloc-3.1.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.1.6/2ddb4e3ab94af4383d317ad87bfb489662e566ac/lwjgl-jemalloc-3.1.6-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.1.6/5ba6a6563e3f8e9fa17ee67432aa29a538285b79/lwjgl-jemalloc-3.1.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.1.6/c03253f13fff766ec3fc2e8d0924964d0f09e886/lwjgl-openal-3.1.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.1.6/186f517e9724aae0f2f1e5517e3a19182ef0a1e3/lwjgl-openal-3.1.6-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.1.6/d1125b7de9d610b73f7769394f7175b22aea5525/lwjgl-openal-3.1.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.1.6/964a2332ab3b396bcf67f12b8b93d39c79c978c2/lwjgl-opengl-3.1.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.1.6/9a46b800943f2003b3796d00cfed94f5bc42bb21/lwjgl-opengl-3.1.6-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.1.6/8640d58796d0c7fe3749692ee9e6b2c7b40a1042/lwjgl-opengl-3.1.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.1.6/7fe6af9a51891c9d22ee93c4241c237b4f3a5151/lwjgl-glfw-3.1.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.1.6/e910128f1ae2afadc4ed69549c589e188a70ac8c/lwjgl-glfw-3.1.6-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.1.6/af0a105598ed4958e47322663d97cd40e1aa2f96/lwjgl-glfw-3.1.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.1.6/41e958545f64db9d46ab8e616c3020929bbaeca/lwjgl-stb-3.1.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.1.6/297e6fb9c726927213de79b1444ecef326af9709/lwjgl-stb-3.1.6-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.1.6/600ceb01824c7bdcd43761370bc7bf414acf0a6d/lwjgl-stb-3.1.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.1.6/75a08ab96db25e3dd05a127e69e314deb0c13161/lwjgl-3.1.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.1.6/7e049a9e425344d68f2f212df0a5aabc1e0ee356/lwjgl-3.1.6-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.1.6/496f4d0ece899058dadcc336a4e9c43dc8fbe24b/lwjgl-3.1.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/4ca2436396bc14ebd78b7db1d4e11ca607c8705e/codecjorbis-20101023-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/71ec00b9b9c1a6a2c3a8a25f481a23ddb5b21ddb/codecwav-20101023-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/945ff5711de27751cf699641d1ea316ba6cf7589/libraryjavasound-20101123-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/1b9f4eb11ef11fede7fd76a2e5e8203c2a8adcd/soundsystem-20120107-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/minecraft/net/minecraft/minecraft/1.13.2/snapshot/20181130/minecraftSrc-1.13.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/秋宗/.gradle/caches/minecraft/net/minecraft/minecraft/1.13.2/snapshot/20181130/minecraftSrc-1.13.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="file://C:/Users/秋宗/.gradle/caches/minecraft/net/minecraft/minecraft/1.13.2/start"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+  </component>
+</module>

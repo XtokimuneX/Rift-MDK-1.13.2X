@@ -47,3 +47,7 @@ mixin {
     defaultObfuscationEnv notch
     add sourceSets.main, 'mixins.x13.refmap.json'
 }
+
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+}
