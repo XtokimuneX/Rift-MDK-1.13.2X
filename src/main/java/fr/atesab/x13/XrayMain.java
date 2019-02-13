@@ -113,6 +113,7 @@ public class XrayMain {
 
 	/**
 	 * Process modes and Xray keys
+	 * キーイベント受けとってメッセージにする部分
 	 */
 	public void processKeybinds() {
 		/**
@@ -127,6 +128,8 @@ public class XrayMain {
 		else if(test3.isPressed())
 			Minecraft.getInstance().player.sendChatMessage(tt.get(5));
 		 **/
+
+		//kbとttでナンバーにズレがあるので注意
 		for (int i=0;i<kb.size();i++)
 		{
 			if(kb.get(i).isPressed())
@@ -137,6 +140,7 @@ public class XrayMain {
 
 	/**
 	 * True if the side should be rendered
+	 * これよくわかんない
 	 */
 	public void shouldSideBeRendered(IBlockState state, IBlockReader reader, BlockPos pos, EnumFacing face,
 			CallbackInfoReturnable<Boolean> ci) {
@@ -144,10 +148,13 @@ public class XrayMain {
 			mode.shouldSideBeRendered(state, reader, pos, face, ci);
 	}
 
+	//メッセージを管理するリスト
 	private List<String> tt;
 
+	//ファイルを読み込むメソッド
 	public void TxstR()
 	{
+		//リストを初期化
 		tt=new ArrayList<String>();
 
 		try {
@@ -175,6 +182,9 @@ public class XrayMain {
 				tt.add(data);
 			}
 
+			//読み込んだリストを元にマクロ枠を作っていく
+			//リストの1行目はファイルの1行目であり注意書き
+			//なのでリストとマクロ枠のナンバーが１つずれる
 			for(int i=1;i<tt.size();i++)
 			{
 				if(!tt.get(i).isEmpty())
@@ -193,6 +203,7 @@ public class XrayMain {
 
 	}
 
+	//ファイルがなかった場合は新規作成
 	public void TxstCreate()
 	{
 		File file = new File("test.txt");
