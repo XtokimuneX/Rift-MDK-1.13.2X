@@ -65,6 +65,7 @@ public class XrayMain {
 
 	/**
 	 * init Xray
+	 * メイン部分
 	 */
 	public void init() {
 		if (isInit)
@@ -72,6 +73,7 @@ public class XrayMain {
 		log("Initialization");
 		Minecraft mc = Minecraft.getInstance();
 
+		//ファイルを読み込みに行く
 		TxstR();
 
 		/**
@@ -93,6 +95,7 @@ public class XrayMain {
 	/**
 	 * pre-init Xray
 	 * これは必須
+	 * なぜかはよくわかんない
 	 */
 	public void preInit() {
 		if (isPreInit)
