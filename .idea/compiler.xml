@@ -5,9 +5,18 @@
       <file url="file://$PROJECT_DIR$/src/main/java/fr/atesab/x13/mixin/MixinBlockUtils.java" />
     </excludeFromCompile>
     <bytecodeTargetLevel>
+      <module name="com.github.rona.tombo.Macro.api" target="1.8" />
+      <module name="com.github.rona.tombo.Macro.main" target="1.8" />
+      <module name="com.github.rona.tombo.Macro.test" target="1.8" />
       <module name="example.Rift-MDK-1.13.2.api" target="1.8" />
       <module name="example.Rift-MDK-1.13.2.main" target="1.8" />
       <module name="example.Rift-MDK-1.13.2.test" target="1.8" />
+      <module name="fr.atesab.x13.Macro.api" target="1.8" />
+      <module name="fr.atesab.x13.Macro.main" target="1.8" />
+      <module name="fr.atesab.x13.Macro.test" target="1.8" />
+      <module name="fr.atesab.x13.Rift-MDK-1.13.2.api" target="1.8" />
+      <module name="fr.atesab.x13.Rift-MDK-1.13.2.main" target="1.8" />
+      <module name="fr.atesab.x13.Rift-MDK-1.13.2.test" target="1.8" />
       <module name="tokimunes.Rift-MDK-1.13.2.api" target="1.8" />
       <module name="tokimunes.Rift-MDK-1.13.2.main" target="1.8" />
       <module name="tokimunes.Rift-MDK-1.13.2.test" target="1.8" />

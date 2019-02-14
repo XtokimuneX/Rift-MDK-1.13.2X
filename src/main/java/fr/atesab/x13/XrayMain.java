@@ -7,17 +7,13 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.spongepowered.asm.launch.MixinBootstrap;
 import org.spongepowered.asm.mixin.Mixins;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import com.google.common.collect.Lists;
-import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.settings.KeyBinding;
-import net.minecraft.util.EnumFacing;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.IBlockReader;
+
 
 public class XrayMain {
-	private static final Logger log = LogManager.getLogger("X13");
+	private static final Logger log = LogManager.getLogger("tokimune");
 	private static XrayMain instance;
 
 
@@ -50,8 +46,6 @@ public class XrayMain {
 
 	private BuildAPI api;
 
-	private List<XrayMode> modes = Lists.newArrayList();
-	private KeyBinding fullbright, config,test,test2,test3;
 	private boolean isInit = false;
 	private boolean isPreInit = false;
 	private List<KeyBinding> kb=Lists.newArrayList();
@@ -64,7 +58,6 @@ public class XrayMain {
 
 
 	/**
-	 * init Xray
 	 * メイン部分
 	 */
 	public void init() {
@@ -74,15 +67,7 @@ public class XrayMain {
 		Minecraft mc = Minecraft.getInstance();
 
 		//ファイルを読み込みに行く
-		TxstR();
-
-		/**
-		api.registerKeys(fullbright = new KeyBinding("マクロ1", -1, "key.categories.xray"),
-				config = new KeyBinding("マクロ2", -1, "key.categories.xray"),
-				test = new KeyBinding("マクロ3", -1,"key.categories.xray"),
-				test2 = new KeyBinding("マクロ4", -1,"key.categories.xray"),
-				test3 = new KeyBinding("マクロ5", -1,"key.categories.xray"));
-**/
+		TextR();
 
 		mc.gameSettings.loadOptions();
 		isInit = true;
@@ -95,7 +80,7 @@ public class XrayMain {
 	/**
 	 * pre-init Xray
 	 * これは必須
-	 * なぜかはよくわかんない
+	 * これのどっかで設定画面にキー登録をしてる
 	 */
 	public void preInit() {
 		if (isPreInit)
@@ -119,18 +104,6 @@ public class XrayMain {
 	 * キーイベント受けとってメッセージにする部分
 	 */
 	public void processKeybinds() {
-		/**
-		if (fullbright.isPressed())
-			Minecraft.getInstance().player.sendChatMessage(tt.get(1));
-		else if (config.isPressed())
-			Minecraft.getInstance().player.sendChatMessage(tt.get(2));
-		else if(test.isPressed())
-			Minecraft.getInstance().player.sendChatMessage(tt.get(3));
-		else if(test2.isPressed())
-			Minecraft.getInstance().player.sendChatMessage(tt.get(4));
-		else if(test3.isPressed())
-			Minecraft.getInstance().player.sendChatMessage(tt.get(5));
-		 **/
 
 		//kbとttでナンバーにズレがあるので注意
 		for (int i=0;i<kb.size();i++)
@@ -141,33 +114,23 @@ public class XrayMain {
 
 	}
 
-	/**
-	 * True if the side should be rendered
-	 * これよくわかんない
-	 */
-	public void shouldSideBeRendered(IBlockState state, IBlockReader reader, BlockPos pos, EnumFacing face,
-			CallbackInfoReturnable<Boolean> ci) {
-		for (XrayMode mode : modes)
-			mode.shouldSideBeRendered(state, reader, pos, face, ci);
-	}
-
 	//メッセージを管理するリスト
 	private List<String> tt;
 
 	//ファイルを読み込むメソッド
-	public void TxstR()
+	public void TextR()
 	{
 		//リストを初期化
 		tt=new ArrayList<String>();
 
 		try {
 			// ファイルのパスを指定する
-			File file = new File("test.txt");
+			File file = new File("マクロ設定.txt");
 
 			// ファイルが存在しない場合に作成する
 			if (!file.exists()) {
 				//作るメソッド
-				TxstCreate();
+				TextCreate();
 
 				// それでもファイルが存在しない場合に例外が発生するので確認する
 				if (!file.exists()) {
@@ -192,7 +155,7 @@ public class XrayMain {
 			{
 				if(!tt.get(i).isEmpty())
 				{
-					kb.add(new KeyBinding("マクロ"+i, -1, "key.categories.xray"));
+					kb.add(new KeyBinding("マクロ"+i, -1, "マクロ"));
 					api.registerKeys(kb.get(i-1));
 				}
 			}
@@ -207,9 +170,9 @@ public class XrayMain {
 	}
 
 	//ファイルがなかった場合は新規作成
-	public void TxstCreate()
+	public void TextCreate()
 	{
-		File file = new File("test.txt");
+		File file = new File("マクロ設定.txt");
 
 		try {
 			// 文字コードを指定する

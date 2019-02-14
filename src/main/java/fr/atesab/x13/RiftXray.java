@@ -2,7 +2,6 @@ package fr.atesab.x13;
 
 import org.apache.commons.lang3.ArrayUtils;
 import org.dimdev.rift.listener.client.KeybindHandler;
-import org.dimdev.rift.listener.client.OverlayRenderer;
 import org.dimdev.riftloader.listener.InitializationListener;
 
 import net.minecraft.client.Minecraft;

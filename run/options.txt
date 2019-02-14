@@ -93,11 +93,6 @@ key_マクロ2:key.keyboard.keypad.2
 key_マクロ3:key.keyboard.keypad.3
 key_マクロ4:key.keyboard.keypad.4
 key_マクロ5:key.keyboard.keypad.5
-key_マクロ6:key.keyboard.keypad.6
-key_マクロ7:key.keyboard.keypad.7
-key_マクロ8:key.keyboard.keypad.8
-key_マクロ9:key.keyboard.keypad.9
-key_マクロ10:key.keyboard.keypad.0
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0

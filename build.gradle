@@ -15,12 +15,12 @@ apply plugin: 'net.minecraftforge.gradle.tweaker-client'
 apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'java'
 
-group 'fr.atesab.x13'
-version '1.0.3'
-archivesBaseName = 'X13'
+group 'com.github.xtokimunex'
+version '1.0.1'
+archivesBaseName = 'macro'
 
 sourceCompatibility = 1.8
-targetCompatibility = 1.8
+
 
 repositories {
     mavenCentral()

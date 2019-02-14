@@ -3,6 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Rift-MDK-1.13.2.iml" filepath="$PROJECT_DIR$/Rift-MDK-1.13.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.github.rona.tombo.Macro.api.iml" filepath="$PROJECT_DIR$/.idea/modules/com.github.rona.tombo.Macro.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.github.rona.tombo.Macro.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.github.rona.tombo.Macro.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.github.rona.tombo.Macro.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.github.rona.tombo.Macro.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tokimunes.Rift-MDK-1.13.2.iml" filepath="$PROJECT_DIR$/.idea/modules/tokimunes.Rift-MDK-1.13.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tokimunes.Rift-MDK-1.13.2.api.iml" filepath="$PROJECT_DIR$/.idea/modules/tokimunes.Rift-MDK-1.13.2.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tokimunes.Rift-MDK-1.13.2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/tokimunes.Rift-MDK-1.13.2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tokimunes.Rift-MDK-1.13.2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/tokimunes.Rift-MDK-1.13.2.test.iml" />
     </modules>
   </component>
 </project>
