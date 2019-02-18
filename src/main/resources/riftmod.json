@@ -1,8 +1,8 @@
 {
-	"id": "x13",
-	"name": "x13",
+	"id": "macro",
+	"name": "MacroMOD",
 	"authors": [
-		"ATE47"
+		"XtokimuneX","rona_tombo"
 	],
 	"listeners": [
 		"fr.atesab.x13.RiftXray"

@@ -49,6 +49,7 @@ public class XrayMain {
 	private boolean isInit = false;
 	private boolean isPreInit = false;
 	private List<KeyBinding> kb=Lists.newArrayList();
+	private KeyBinding kf;
 
 	private XrayMain(BuildAPI api) {
 		if (isAPIRegister())
@@ -65,6 +66,11 @@ public class XrayMain {
 			return;
 		log("Initialization");
 		Minecraft mc = Minecraft.getInstance();
+
+		//再読込用キーを用意
+		kf=new KeyBinding("設定ファイル再読込", -1, "秋宗屋謹製マクロMOD");
+		//再読込用キーを登録
+		api.registerKeys(kf);
 
 		//ファイルを読み込みに行く
 		TextR();
@@ -108,10 +114,18 @@ public class XrayMain {
 		//kbとttでナンバーにズレがあるので注意
 		for (int i=0;i<kb.size();i++)
 		{
-			if(kb.get(i).isPressed())
-			Minecraft.getInstance().player.sendChatMessage(tt.get(i+1));
+			if(kf.isPressed())
+			{
+				TextAgain();
+				return;
+			}
+			try {
+				if (kb.get(i).isPressed())
+					Minecraft.getInstance().player.sendChatMessage(tt.get(i + 1));
+			}catch (IndexOutOfBoundsException e){
+				Minecraft.getInstance().player.sendChatMessage("ファイルが読み込めませんでした。");
+			}
 		}
-
 	}
 
 	//メッセージを管理するリスト
@@ -139,12 +153,10 @@ public class XrayMain {
 				}
 			}
 
-
 			// BufferedReaderクラスのreadLineメソッドを使って1行ずつ読み込み表示する
 			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
 			String data;
 			while ((data = bufferedReader.readLine()) != null) {
-
 				tt.add(data);
 			}
 
@@ -155,7 +167,7 @@ public class XrayMain {
 			{
 				if(!tt.get(i).isEmpty())
 				{
-					kb.add(new KeyBinding("マクロ"+i, -1, "マクロ"));
+					kb.add(new KeyBinding("マクロ"+i, -1, "秋宗屋謹製マクロMOD"));
 					api.registerKeys(kb.get(i-1));
 				}
 			}
@@ -180,7 +192,7 @@ public class XrayMain {
 					(new OutputStreamWriter(new FileOutputStream(file),"UTF-8")));
 
 			//ファイルに文字列を書き込む
-			p_writer.println("※UTF-8で保存してください。");
+			p_writer.println("※UTF-8で保存してください。1行が1つのマクロになります。何行でもいけます。");
 			p_writer.println("マクロテスト1");
 			p_writer.println("マクロテスト2");
 			p_writer.println("マクロテスト3");
@@ -192,6 +204,39 @@ public class XrayMain {
 		} catch (UnsupportedEncodingException | FileNotFoundException e) {
 			e.printStackTrace();
 		}
+	}
+
+	//設定ファイルの再読込を行うメソッド
+	public void TextAgain()
+	{
+		//リストを初期化
+		tt=new ArrayList<String>();
+
+		try {
+			// ファイルのパスを指定する
+			File file = new File("マクロ設定.txt");
+
+			// ファイルが存在しない場合に作成する
+			if (!file.exists()) {
+				tt.add("ファイルが読み込めませんでした。");
+				return;
+
+			}
+
+			// BufferedReaderクラスのreadLineメソッドを使って1行ずつ読み込み表示する
+			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
+			String data;
+			while ((data = bufferedReader.readLine()) != null) {
+				tt.add(data);
+			}
+
+			// 最後にファイルを閉じてリソースを開放する
+			bufferedReader.close();
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
 	}
 
 }

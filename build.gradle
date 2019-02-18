@@ -16,11 +16,10 @@ apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'java'
 
 group 'com.github.xtokimunex'
-version '1.0.1'
+version '1.0.4'
 archivesBaseName = 'macro'
 
 sourceCompatibility = 1.8
-
 
 repositories {
     mavenCentral()
